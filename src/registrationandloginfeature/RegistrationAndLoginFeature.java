@@ -15,7 +15,7 @@ public class RegistrationAndLoginFeature {
         int i = 0;
 
         while (i < 1) {
-            System.out.println("================Menu================");
+            System.out.println("================Chat App================");
             System.out.println("1. Register");
             System.out.println("2. Login");
             System.out.println("3. Exit");
@@ -166,7 +166,7 @@ public class RegistrationAndLoginFeature {
     public static String returnLoginStatus() {
         if (loginUser()) {
             // Brief requires: "Welcome <user first name>, <user last name> it is great to see you."
-            // Using username in place of first/last name until those fields are added
+            // Using username in place of first/last name until those fields are added.
             return "Welcome " + username + " it is great to see you.";
         } else {
             return "Username or password incorrect, please try again.";
