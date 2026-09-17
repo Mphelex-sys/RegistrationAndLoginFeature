@@ -35,7 +35,7 @@ public class RegistrationAndLoginFeature {
                     break;
 
                 case 3:
-                    System.out.println("Thank you for using ChatAp.");
+                    System.out.println("Thank you for using ChatApp.");
                     i = 2;
                     break;
 
@@ -63,8 +63,6 @@ public class RegistrationAndLoginFeature {
     }
 
     public static boolean checkCellPhoneNumber(String cellPhone) {
-        // International code +27 followed by exactly 9 digits (10 digits total)
-        // Source: https://www.regular-expressions.info/
         return cellPhone.matches("\\+27[0-9]{9}");
     }
 
