@@ -35,7 +35,7 @@ public class RegistrationAndLoginFeature {
                     break;
 
                 case 3:
-                    System.out.println("Thank you for using ChatApp.");
+                    System.out.println("Thank you for using ChatAp.");
                     i = 2;
                     break;
 
