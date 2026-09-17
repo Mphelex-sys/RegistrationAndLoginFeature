@@ -54,7 +54,7 @@ public class RegistrationAndLoginFeature {
     }
 
     public static boolean checkPasswordComplexity(String passWord) {
-        // At least 8 chars, one capital, one digit, one special character
+        // At least 8 chars, one capital, one digit, one special character.
         boolean longEnough   = passWord.length() >= 8;
         boolean hasUpper     = passWord.matches(".*[A-Z].*");
         boolean hasDigit     = passWord.matches(".*[0-9].*");
@@ -63,6 +63,7 @@ public class RegistrationAndLoginFeature {
     }
 
     public static boolean checkCellPhoneNumber(String cellPhone) {
+        // Must have country code.
         return cellPhone.matches("\\+27[0-9]{9}");
     }
 
