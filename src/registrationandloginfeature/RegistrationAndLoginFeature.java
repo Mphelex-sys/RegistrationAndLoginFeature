@@ -97,9 +97,7 @@ public class RegistrationAndLoginFeature {
                 System.out.println("Password successfully captured.");
                    break;
             } else {
-                System.out.println("Password is not correctly formatted; " +
-                        "please ensure that the password contains at least " +
-                        "eight characters, a capital letter, a number, and a special character.");
+                System.out.println("Password is not correctly formatted, please ensure that the password contains at least eight characters, a capital letter, a number, and a special character.");
                 System.out.println("");
             }
         }
